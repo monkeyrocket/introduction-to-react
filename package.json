@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
+    "test:challenge_1": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/1_hello_world_test.js",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
