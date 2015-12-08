@@ -8,7 +8,7 @@ import {expect} from 'chai';
 const {renderIntoDocument, scryRenderedDOMComponentsWithTag, Simulate} = ReactTestUtils;
 
 describe('Task List',()=>{
-  it('renders a list of 3 task',()=>{
+  it('renders a list of 3 tasks',()=>{
     const component = renderIntoDocument(
       <TodoList />
     );
