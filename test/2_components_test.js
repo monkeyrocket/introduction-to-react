@@ -1,4 +1,4 @@
-import React from 'react/addons';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-addons-test-utils';
 import TodoList from '../src/components/todo_list';

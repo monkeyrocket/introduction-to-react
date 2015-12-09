@@ -8,6 +8,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
     "test:challenge_1": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/1_hello_world_test.js",
     "test:challenge_2": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/2_components_test.js",
+    "test:challenge_3": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/3_props_test.js",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],

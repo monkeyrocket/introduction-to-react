@@ -1,4 +1,4 @@
-import React from 'react/addons';
+import React from 'react';
 import '../src/index';
 import {expect} from 'chai';
 
