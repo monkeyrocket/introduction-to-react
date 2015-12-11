@@ -14,7 +14,12 @@ module.exports = {
     }, { 
       test: /\.css$/,
       loader: 'style!css!autoprefixer?browsers=last 2 versions'
-    }]
+    },
+    { 
+      test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/, 
+      loader: 'url-loader?limit=100000' 
+    }
+    ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
