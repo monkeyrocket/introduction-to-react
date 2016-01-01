@@ -11,6 +11,7 @@
     "test:challenge_3": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/3_props_test.js",
     "test:challenge_4": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/4_styles_test.js",
     "test:challenge_5": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/5_events_test.js",
+    "test:challenge_6": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./test/6_advanced_state_test.js",
     "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
